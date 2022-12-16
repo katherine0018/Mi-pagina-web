@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Katherine's Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#bio" >Bio</a>
+    </div>
+  </nav>
+
+  <div class="div-1">
+    <h1 class="">Hola, soy Katherine</h1>
+    <p><span class="student">Estudiante de Ingenieria Industrial</span></p>
+    <img class="mountain" src="images/mountain.png" alt="mountainscenery">
+    <img class="cloud-left" src="images/cloud.png" alt="cloud">
+    <img class="cloud-right-1" src="images/cloud.png" alt="cloud">
+    <img class="cloud-right-2" src="images/cloud.png" alt="cloud">
+    <img class="snow" src="images/snow.png" alt="snow">
+
+  </div>
+  <div class="middle" id="bio">
+    <img class="Yo" src="images/Foto profesional .JPG" alt="una foto de mi">
+    <img class="waves" src="images/waves.png" alt="waves">
+    <img class="waves-1" src="images/waves.png" alt="waves">
+    <img class="waves-2" src="images/waves.png" alt="waves">
+    <img class="waves-3" src="images/waves.png" alt="waves">
+    <img class="waves-4" src="images/waves.png" alt="waves">
+    <img class="snowcliff" src="images/snowcliff.png" alt="cliff">
+    <h1 class="bio">Bio!</h1>
+
+
+
+    <p class="biotext"> Hola, mi nombre es <span class="span-1">Katherine Rodriguez</span>, y mi matrícula es 22-0018 <br> estudio ingeniería industrial. <br> Elegí esta carrera porque a mi me gusta mucho organizar, planificar y coordinar mi vida y entendía que esto lo iba a ver en la carrera.
+     <br> Al pasar el el tiempo me di cuenta que la ingería industrial es más que es una carrera que busca la manera de optimizar y mejora de manera más eficiente y eficaz un sistema que pueda ayudar a una empresa o industria. <br> Ahora mismo estoy en mi cuarto semestre casi quinto y tengo ya un año en la carrera. <br>
+     Mi único pasa tiempo que tengo es ver series o películas <br>cuando el tiempo me lo permite.</p>
+
+  </div>
+  <div class="bottom">
+    <img class="Mariotime" src="https://media.giphy.com/media/mFSJ9Xt6K09e2jhv7f/giphy.gif" alt="Mario">
+    <hr class="hr-1">
+    <a class="Info" href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_industrial">Mas informacion sobre mi carrera</a>
+  </div>
+  <div class="end">
+<p class="mytag"></p>
+  </div>
+
+  <div class="coordinadas" onmousemove="myFunction(event)" onmouseout="clearCoor()">
+    <p class="mouse">Pon tu mouse sobre mi</p>
+  </div>
+
+
+  <p id="demo"></p>
+
+  <script>
+  function myFunction(e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    var coor = "Coordinates: (" + x + "," + y + ")";
+    document.getElementById("demo").innerHTML = coor;
+  }
+
+  function clearCoor() {
+    document.getElementById("demo").innerHTML = "";
+  }
+  </script>
+
+
+
+</body>
+</html>
